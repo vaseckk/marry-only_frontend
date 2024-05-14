@@ -1,0 +1,372 @@
+body, html {
+	height: 100%;
+}
+
+//HOME
+
+.home-header {
+    background-color: #1c1f15d2;
+    height: 100%;
+}
+
+.home-hstyle {
+    color: $textcolor;
+    position: absolute;
+    display: flex;
+}   
+
+.home-height{
+    background-color: rgba($fon, .2);
+    display: flex;
+    position: absolute;
+    height: $size;
+    width: 1495px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Kalnia-my;
+    background-image: url(../images/bars-solid.svg);
+    background-repeat: no-repeat;
+    background-position: 1455px;
+
+    transition: background .25s ease-out;
+	&:hover {
+		background-color: $accent;
+        background-color: rgba($fon, .3);
+	}
+}
+
+//HHEIGHT
+
+.hheight-text{
+    size: 25px;
+    color: #fff;
+    display: flex;
+    margin: 0px 20px;
+    align-items: center;
+    text-transform: uppercase;
+	font-size: 13px;
+    letter-spacing: .3em;
+}
+
+.hheight-numder{
+	font-size: 14px;
+	letter-spacing: .4em;
+	color: rgba(#fff, .5);
+	display: flex;
+	align-items: center;
+    margin-left: 380px;
+    margin-right: auto;
+}
+
+.top-line-decoration { 
+    margin-top: 7.5px;
+    flex: 1 0 0;
+    text-align: center;
+    opacity: .2;
+    margin-left: 40px;
+        &::before {
+    content: '';
+    height: 35px;
+    width: 1px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+}}
+
+.hheight-adress {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: .4em;
+	color: rgba(#fff, .5);
+	display: flex;
+	align-items: center;
+    margin-right: 550px;
+}
+
+//HOME
+
+.home-hpicture {
+    margin-top: 120px;
+    margin-left: 50px;
+    clip-path: circle(180vh at 50% -80vh);//ДОРАБОТАТЬ ОБЯЗАТЕЛЬНО
+    height: 450px;
+    width: 500px;
+    display: flex;
+    opacity: .9;
+}
+
+.home-htexth1 {
+    margin-left: 210px;
+    margin-top: 205px;
+    display: block;
+    position: absolute;
+    font-family: NanumMyeongjo-my;
+    letter-spacing: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    color: $textcolor;
+    font-weight: 400;
+}
+
+.home-hpicture2 {
+    margin-top: 180px;
+    margin-left: 600px;
+    border-radius: 50px; //ДОРАБОТАТЬ ОБЯЗАТЕЛЬНО
+    height: 450px;
+    width: 500px;
+    display: flex;
+    opacity: .6;
+}
+
+.hone-htextp {
+    margin-top: 440px;
+    margin-left: 370px;
+    display: block;
+    position: absolute;
+    font-family: NanumMyeongjo-my;
+    line-height: 165%;
+    letter-spacing: 13px;
+    text-align: center;
+    opacity: .9;
+}
+
+.home-hotzif {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    background-color: rgba($fon, .2);
+    border-radius: 15px;
+    margin-top: 620px;
+    margin-left: 50px;
+}
+
+.home-horext{
+    text-align: center;
+    margin-top: 10px;
+    font-family: NanumMyeongjo-my;
+    font-size: 17px;
+    opacity: .9;
+    letter-spacing: 11px;
+}
+
+//protect
+
+.protect {
+    background-color: #1c1f15d2;
+    height: 100%;
+    font-family: NanumMyeongjo-my;
+}
+
+.protect_section {
+    position: absolute;
+    display: block;
+    background-color: rgba($fon, .2);
+    border-radius: 15px;
+    width: 800px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.protect_texth1 {
+    position: absolute;
+    display: block;
+    color: $textcolor;
+    opacity: .75;
+    letter-spacing: 35px;
+    line-height: 65px;
+    font-size: 35px ;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.protect_textp1 {
+    font-size: 15px;
+    line-height: 35px;
+    letter-spacing: 9px;
+    position: absolute;
+    display: block;
+    margin-top: 230px;
+    margin-left: 170px;
+    text-align: center;
+}
+
+.protect_pict1 {
+    margin: 450px 100px ; 
+    width: 220px;
+    height: 220px;
+    display: flex;
+    position: absolute;
+}
+
+.top-line_decoration {
+    flex: 1 0 0;
+    text-align: center;
+    opacity: .2;
+    margin: 560px 420px;
+    display: block;
+    position: absolute;
+        &::before {
+    content: '';
+    height: 1px;
+    width: 130px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+        }
+}
+
+.protect_pict2 {
+    margin: 450px 650px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    position: absolute;
+}
+
+.top-line_decoration2 {
+    flex: 1 0 0;
+    text-align: center;
+    opacity: .2;
+    margin: 560px 960px;
+    display: block;
+    position: absolute;
+        &::before {
+    content: '';
+    height: 1px;
+    width: 130px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+        }
+}
+
+.protect_pict3 {
+    margin: 450px 1200px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    position: absolute;
+}
+
+//grace
+
+.grace {
+    background-color: #011305f0;
+    height: calc(100% / 2);
+    opacity: .9;
+    font-family: NanumMyeongjo-my;
+}
+
+.grace__pict {
+    display: flex;
+    position: absolute;
+    width: 550px;
+    height: 280px;
+    opacity: .8;
+    margin: 35px 860px;
+}
+
+.grace__text {
+    display: flex;
+    position: absolute;
+    margin: 95px 200px;
+    text-align: center;
+    letter-spacing: 25px;
+    line-height: 55px;
+    font-size: 25px;
+}
+
+//HARMONY
+
+.harmony {
+    background-color: #1c1f15d2;
+    height: 100%;
+    font-family: NanumMyeongjo-my;
+}
+
+.harmony__pict {
+    display: flex;
+    position: absolute;
+    width: 550px;
+    height: 280px;
+    opacity: .8;
+    margin: 35px 100px;
+}
+
+.harmony__text {
+    display: block;
+    position: absolute;
+    margin: 70px 850px;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 7px;
+    width: 600px;
+    text-align: center;
+}
+
+//BLOCK
+
+.harmony__block {
+    background-color: rgba($fon, .2);
+    display: flex;
+    position: absolute;
+    width: 1200px;
+    height: 250px;
+    border-radius: 15px;
+    margin: 380px 160px;
+}
+
+.block__texth1 {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 15px;
+    line-height: 45px;
+    text-align: center;
+    margin: 15px 90px;
+}
+
+.block__textp1 {
+    position: absolute;
+    display: block;
+    justify-content: space-between;
+    margin: 200px 250px;
+}
+.block_pict {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 205px 220px;
+}
+
+.block__textp2 {
+    position: absolute;
+    display: block;
+    justify-content: space-between;
+    margin: 200px 800px;
+}
+
+.block_pict2 {
+    position: absolute;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 205px 770px;
+}
+
+//end 
+
+.end {
+    display: flex;
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 70
+    0px;
+}
